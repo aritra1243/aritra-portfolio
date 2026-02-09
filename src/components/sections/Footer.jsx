@@ -13,7 +13,7 @@ export const Footer = () => {
 
                 <div className="flex justify-center gap-8 mb-8">
                     <a
-                        href="https://github.com"
+                        href="https://github.com/aritra1243"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-400 hover:text-white transition-colors hover:translate-y-[-3px] transform duration-300"
@@ -21,7 +21,7 @@ export const Footer = () => {
                         <img src="https://img.icons8.com/fluent/48/ffffff/github.png" alt="GitHub" className="w-8 h-8 opacity-70 hover:opacity-100 transition-opacity" />
                     </a>
                     <a
-                        href="https://linkedin.com"
+                        href="https://www.linkedin.com/in/aritra-dhabal-677090388"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-400 hover:text-white transition-colors hover:translate-y-[-3px] transform duration-300"
