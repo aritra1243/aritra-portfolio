@@ -2,40 +2,40 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 const projectList = [
   {
-    title: "Cloud Platform",
+    title: "CRM System",
     description:
-      "Scalable cloud infrastructure management with real-time monitoring and automated scaling.",
-    tech: ["React", "Node.js", "AWS", "Docker"],
-    link: "#",
-    github: "#",
-    img: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "A full-featured Customer Relationship Management system for managing leads, contacts, deals, and sales pipelines. Built with a clean architecture focused on scalability and team collaboration.",
+    tech: ["Django", "Python", "PostgreSQL", "REST API"],
+    link: "https://github.com/aritra1243/crm-system",
+    github: "https://github.com/aritra1243/crm-system",
+    img: "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=2070&auto=format&fit=crop",
   },
   {
-    title: "AI Analytics Dashboard",
+    title: "VoiceAst",
     description:
-      "ML-powered data visualization platform with predictive analytics and interactive reports.",
-    tech: ["Python", "TensorFlow", "D3.js", "Flask"],
-    link: "#",
-    github: "#",
-    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "An AI-powered voice assistant application that interprets spoken commands and delivers intelligent, context-aware responses. Combines speech recognition with NLP for a seamless voice-first experience.",
+    tech: ["Python", "Speech Recognition", "NLP", "AI/ML"],
+    link: "https://github.com/aritra1243/VoiceAst",
+    github: "https://github.com/aritra1243/VoiceAst",
+    img: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop",
   },
   {
-    title: "E-Commerce Web App",
+    title: "Stock Market Anomaly Detection",
     description:
-      "Full-stack e-commerce with modern UI, secure payments, and customizable inventory.",
-    tech: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
-    link: "#",
-    github: "#",
-    img: "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "An ML-driven system that monitors live stock market data and flags statistical anomalies in real time. Uses time-series analysis and unsupervised learning to detect unusual price movements and volume spikes.",
+    tech: ["Python", "Scikit-learn", "Pandas", "Time-Series"],
+    link: "https://github.com/aritra1243/Stock-market-Anomaly-Detection",
+    github: "https://github.com/aritra1243/Stock-market-Anomaly-Detection",
+    img: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=2070&auto=format&fit=crop",
   },
   {
-    title: "Real-Time Chat App",
+    title: "Online Mobile Store",
     description:
-      "Scalable chat platform supporting real-time messaging, presence, and group chat features.",
-    tech: ["Socket.IO", "Express", "React", "Redis"],
-    link: "#",
-    github: "#",
-    img: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "A responsive e-commerce platform for browsing and purchasing mobile devices. Features product listings, cart management, secure checkout flow, and an admin panel for inventory control.",
+    tech: ["Django", "HTML/CSS", "JavaScript", "SQLite"],
+    link: "https://github.com/aritra1243/Online-Mobile-Store",
+    github: "https://github.com/aritra1243/Online-Mobile-Store",
+    img: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2070&auto=format&fit=crop",
   },
 ];
 
@@ -89,6 +89,8 @@ export const Projects = () => {
                   <div className="mt-auto flex justify-between items-center gap-4">
                     <a
                       href={link}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-blue-400 hover:text-blue-300 transition font-medium relative group"
                     >
                       View Project
@@ -96,8 +98,10 @@ export const Projects = () => {
                     </a>
                     <a
                       href={github}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-white/80 hover:text-white transition"
-                      aria-label="View Code"
+                      aria-label="View on GitHub"
                     >
                       <img src="https://img.icons8.com/fluent/48/000000/github.png" alt="GitHub" className="w-8 h-8 invert opacity-80 hover:opacity-100 transition" />
                     </a>
